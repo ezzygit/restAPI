@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcryptjs');
 
 exports.hashPassword = async (req, res, next) => {
     if ('password' in req.body) {
